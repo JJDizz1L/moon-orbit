@@ -28,13 +28,13 @@ This allows for automatically theming: Alacritty, Cava, Chromium, Cursor, Discor
   - https://github.com/imbypass/omarchy-theme-hook
 
 ### System Modifications
-Beta customizes your system with a dark background and adds bright vibrant colors. If you have an OLED display; Aetheria is a delight.</br>
+Beta customizes your system with a dark background and adds bright vibrant colors. If you have an OLED display; Moon Orbit is a delight.</br>
 - Supported Terminals: Alacritty, Kitty, Ghostty.
 - Supported Browsers: Chromium Browsers.
 - Modifies TUI colors: nvim/lazyvim, btop++, nvtop, etc.
 - Omarchy Waybar: Stays default, color change only.
 - Omarchy Walker (app launcher): Stays default, color change only.
 - Omarchy Hyprland Lockscreen (hyprlock): Stays default, color change only.
-- Adds six beautiful 4K wallpapers.
+- Adds a beautiful 4K wallpaper.
 - Adds dim to inactive windows: Great for focusing on one task.
   - To toggle dimming, `SUPER+ALT+BACKSPACE`.
