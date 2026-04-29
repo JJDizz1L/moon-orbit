@@ -28,7 +28,7 @@ This allows for automatically theming: Alacritty, Cava, Chromium, Cursor, Discor
   - https://github.com/OldJobobo/theme-hook-plugin-manager
 
 ### System Modifications
-Beta customizes your system with a dark background and adds bright vibrant colors.</br>
+Moon-Orbit customizes your system with a dim purple background and adds bright highlight colors.</br>
 - Supported Terminals: Alacritty, Kitty, Ghostty.
 - Supported Browsers: Chromium Browsers.
 - Modifies TUI colors: nvim/lazyvim, btop++, nvtop, etc.
