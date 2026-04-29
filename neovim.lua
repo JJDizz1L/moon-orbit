@@ -1,56 +1,58 @@
 return {
-    {
-        "bjarneo/aether.nvim",
-        branch = "v2",
-        name = "aether",
-        priority = 1000,
-        opts = {
-            transparent = false,
-            colors = {
-                -- Background colors
-                bg = "#332B3B",
-                bg_dark = "#332B3B",
-                bg_highlight = "#736581",
+  {
+    "bjarneo/aether.nvim",
+    branch = "v3",
+    name = "aether",
+    priority = 1000,
+    opts = {
+      colors = {
+        bg         = "#2d2940",
+        dark_bg    = "#221f30",
+        darker_bg  = "#171520",
+        lighter_bg = "#423e53",
 
-                -- Foreground colors
-                -- fg: Object properties, builtin types, builtin variables, member access, default text
-                fg = "#CCC2B3",
-                -- fg_dark: Inactive elements, statusline, secondary text
-                fg_dark = "#CCC2B3",
-                -- comment: Line highlight, gutter elements, disabled states
-                comment = "#736581",
+        fg         = "#6096fd",
+        dark_fg    = "#4871be",
+        light_fg   = "#78a6fd",
+        bright_fg  = "#88b0fe",
+        muted      = "#684764",
 
-                -- Accent colors
-                -- red: Errors, diagnostics, tags, deletions, breakpoints
-                red = "#C2A3A3",
-                -- orange: Constants, numbers, current line number, git modifications
-                orange = "#C3A2A2",
-                -- yellow: Types, classes, constructors, warnings, numbers, booleans
-                yellow = "#CDBA98",
-                -- green: Comments, strings, success states, git additions
-                green = "#A8BDAF",
-                -- cyan: Parameters, regex, preprocessor, hints, properties
-                cyan = "#98CBCD",
-                -- blue: Functions, keywords, directories, links, info diagnostics
-                blue = "#AC98CD",
-                -- purple: Storage keywords, special keywords, identifiers, namespaces
-                purple = "#CD98C2",
-                -- magenta: Function declarations, exception handling, tags
-                magenta = "#CD98C2",
-            },
-        },
-        config = function(_, opts)
-            require("aether").setup(opts)
-            vim.cmd.colorscheme("aether")
+        red        = "#C0685F",
+        yellow     = "#fca766",
+        orange     = "#c97f77",
+        green      = "#965f81",
+        cyan       = "#7c79a5",
+        blue       = "#7b79a4",
+        purple     = "#987195",
+        brown      = "#794c47",
 
-            -- Enable hot reload
-            require("aether.hotreload").setup()
-        end,
+        bright_red    = "#ee897d",
+        bright_yellow = "#ffd46b",
+        bright_green  = "#bb90a1",
+        bright_cyan   = "#a19bd4",
+        bright_blue   = "#a09bd3",
+        bright_purple = "#c192c0",
+
+        accent               = "#7b79a4",
+        cursor               = "#6096fd",
+        foreground           = "#6096fd",
+        background           = "#2d2940",
+        selection             = "#423e53",
+        selection_foreground = "#6096fd",
+        selection_background = "#423e53",
+      },
     },
-    {
-        "LazyVim/LazyVim",
-        opts = {
-            colorscheme = "aether",
-        },
+    -- set up hot reload
+    config = function(_, opts)
+      require("aether").setup(opts)
+      vim.cmd.colorscheme("aether")
+      require("aether.hotreload").setup()
+    end,
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "aether",
     },
+  },
 }

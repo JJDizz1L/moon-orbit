@@ -4,25 +4,25 @@
  */
 
 /* Dynamic color palette from Aether */
-@define-color background #332b3b;
-@define-color foreground #ccc1b3;
+@define-color background #2d2940;
+@define-color foreground #6096fd;
 
-@define-color black #332b3b;
-@define-color red #c2a3a3;
-@define-color green #a8bdaf;
-@define-color yellow #cdba98;
-@define-color blue #ac98cd;
-@define-color magenta #cd98c2;
-@define-color cyan #98cbcd;
-@define-color white #ccc2b3;
-@define-color bright_black #736581;
-@define-color bright_red #c3a2a2;
-@define-color bright_green #a7beaf;
-@define-color bright_yellow #cdb998;
-@define-color bright_blue #ac98cd;
-@define-color bright_magenta #cd98c3;
-@define-color bright_cyan #98cacd;
-@define-color bright_white #ccc1b3;
+@define-color black #2d2940;
+@define-color red #C0685F;
+@define-color green #965f81;
+@define-color yellow #fca766;
+@define-color blue #7b79a4;
+@define-color magenta #987195;
+@define-color cyan #7c79a5;
+@define-color white #6096fd;
+@define-color bright_black #684764;
+@define-color bright_red #ee897d;
+@define-color bright_green #bb90a1;
+@define-color bright_yellow #ffd46b;
+@define-color bright_blue #a09bd3;
+@define-color bright_magenta #c192c0;
+@define-color bright_cyan #a19bd4;
+@define-color bright_white #00ffd2;
 
 /* Adwaita Color Overrides */
 @define-color accent_bg_color @blue;
@@ -40,11 +40,11 @@
 @define-color sidebar_backdrop_color @black;
 @define-color sidebar_shade_color @black;
 
-@define-color headerbar_bg_color alpha(@foreground, 0.1);
+@define-color headerbar_bg_color @background;
 @define-color headerbar_fg_color @foreground;
 @define-color headerbar_backdrop_color @black;
 @define-color headerbar_shade_color @black;
-@define-color card_bg_color alpha(@foreground, 0.1);
+@define-color card_bg_color @background;
 @define-color card_fg_color @foreground;
 
 @define-color popover_bg_color @black;
