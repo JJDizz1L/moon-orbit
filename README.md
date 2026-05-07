@@ -1,5 +1,5 @@
 <img width="3840" height="2160" alt="image" src="https://github.com/user-attachments/assets/2e32d0ad-aebb-4738-87cb-2d3b4d786324" />
-<img width="1920" height="1080" alt="preview-unlock" src="https://github.com/user-attachments/assets/97bdb7f7-c238-47f3-81d4-fdd9d53a6e43" />
+<img width="1920" height="1080" alt="preview-unlock" src="https://github.com/user-attachments/assets/473bd58a-080b-4ecd-8992-75403c2cef08" />
 New, Omarchy 3.7+ (Plymouth) Unlock Screen 
 
 > Moon Orbit by Dizziee.
